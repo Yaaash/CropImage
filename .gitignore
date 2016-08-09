@@ -89,12 +89,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-*.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
+*.idea
 /captures
 
+.idea/vcs.xml
+app/libs/
+app/src/main/res/drawable/
