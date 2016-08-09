@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.cropimageproject.MainActivity">
+
+    <ImageView
+        android:id="@+id/cropped_image_view"
+        android:layout_width="match_parent"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"/>
+
+    <Button
+        android:id="@+id/select_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_image"
+        android:textAllCaps="false"
+        android:padding="@dimen/activity_horizontal_margin"
+        tools:targetApi="ice_cream_sandwich"/>
+</LinearLayout>
